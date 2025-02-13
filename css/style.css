@@ -15,6 +15,21 @@ body {
     background-color: #fbb3b5;
 }
 
+.letter {
+    background: white; /* White paper effect */
+    max-width: 600px; /* Adjust width as needed */
+    padding: 30px;
+    border-radius: 10px; /* Soft rounded edges */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    text-align: left;
+    line-height: 1.6;
+    color: #ff416c;
+}
+
+.letter p {
+    margin: 10px 0;
+}
+
 /* Shared styles for Hello message and Greetings */
 .hello-message,
 .greetings {
